@@ -1,0 +1,20 @@
+.item {
+    display: flex;
+}
+
+.button {
+    margin-left: rem(10);
+}
+
+.sity__name,
+.button {
+    cursor: pointer;
+}
+
+.remove__icon {
+    width: rem(20);
+}
+
+.active__city {
+    background-color: #00000012;
+}

@@ -1,0 +1,49 @@
+.card__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: rem(10);
+    height: rem(340);
+
+    &:global(.card0) {
+        background-color: #00000039;
+    }
+
+    &:global(.card1) {
+        background-color: #00000049;
+    }
+
+    &:global(.card2) {
+        background-color: #00000059;
+    }
+
+    &:global(.card3) {
+        background-color: #00000069;
+    }
+
+    &:global(.card4) {
+        background-color: #00000079;
+    }
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title__date {
+    font-size: rem(20);
+}
+
+.title__icon {
+    width: rem(50);
+}
+
+.title__description {
+    font-size: rem(16);
+}
+
+.main {
+    margin-top: rem(15);
+}

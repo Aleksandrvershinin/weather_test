@@ -1,0 +1,5 @@
+.cards__list {
+    margin-top: rem(20);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
